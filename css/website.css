@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --yellow: #f9ca24;
+    --bgcolor: #222;
+    --darkcolor: #000;
+    --primary: #f9ca24;
+    --dark: #292929;
+    --color: #fff;
+    --btn: #f9ca24;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: var(--bgcolor);
+    padding: 30px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* ::-webkit-scrollbar-track {
+} */
+ 
+::-webkit-scrollbar-thumb {
+  background: var(--yellow);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: gold;
+}
+
+/* iMenu start */
+
+.i-menu{
+    width: 100%;
+    max-width: 300px;
+    padding: 30px 0;
+    top: 30px;
+    left: 30px;
+    bottom: 30px;
+    text-align: center;
+    position: fixed;
+    border: 3px solid var(--yellow);
+    background-color: var(--dark);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px var(--yellow);
+    overflow: auto;
+}
+
+.menu__wrap{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    display: grid;
+}
+
+.menu__top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    gap: 10px;
+}
+
+.dev{
+    width: 100px;
+    height: 100px;
+    border: 5px solid var(--yellow);
+    box-shadow: 2px 2px 5px var(--yellow);
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.myname{
+    color: var(--yellow);
+    text-shadow: 2px 2px 5px var(--yellow);
+}
+
+.primary{
+    color: var(--primary);
+}
+
+.menu__bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    display: grid;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px 20px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    background-color: var(--btn);
+    color: var(--darkcolor);
+    border: 1px solid var(--btn);
+    box-shadow: 2px 2px 5px var(--btn);
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    transition: 1s;
+    background: transparent;
+    color: var(--btn);
+}
+
+.btn:hover .icon{
+    display: inline-block;
+    rotate: 360deg;
+    transition: 1s;
+}
+
+.btn:active{
+    rotate: 360deg;
+    box-shadow: 2px 2px 5px var(--btn);
+    transition: 1s;
+}
+
+.menu__bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
