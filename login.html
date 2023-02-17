@@ -9,19 +9,23 @@
 </head>
 <body>
 
-    <div class="container">
-
-        <form action="" class="form" data-netlify="true">
-
-            <label for="username">Username:</label>
-            <input class="inp" type="text" id="username" name="username">
-
-            <label for="password">Password:</label>
-            <input class="inp" type="password" id="password" name="password">
-
-            <input class="submit__btn" type="submit" id="submit" value="Login">
+    <div class="login">
+        
+        <div class="container login__container">
             
-        </form>
+            <form action="" class="form login__form">
+                
+                <h2 class="login__title">Login</h2>
+    
+                <input required class="inp email" type="email" id="email" name="Email" placeholder="Email">
+    
+                <input required class="inp password" type="password" id="password" name="Password" placeholder="Password">
+    
+                <input class="submit__btn" type="submit" id="submit" value="Login">
+                
+            </form>
+    
+        </div>
 
     </div>
 

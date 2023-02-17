@@ -10,8 +10,12 @@ html{
 
 :root{
     --yellow: #f9ca24;
-    --bgcolor: #333;
-    --dark: #222;
+    --bgcolor: #222;
+    --darkcolor: #000;
+    --primary: #f9ca24;
+    --dark: #292929;
+    --color: #fff;
+    --btn: #f9ca24;
 }
 
 body{
@@ -25,37 +29,64 @@ body{
     margin: 0 auto;
 }
 
+/* hero start */
+
+.hero{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .hero__container{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-.hero__link{
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--yellow);
-    font-size: 100px;
-    text-decoration: none;
-    border: 10px ridge var(--yellow);
-    box-shadow: 2px 2px 5px var(--yellow);
-    border-radius: 50%;
+.hero__title{
+    max-width: 600px;
+    font-size: 90px;
+    word-spacing: 4px;
+    letter-spacing: 4px;
+    color: var(--primary);
+    margin-bottom: 30px;
+}
+
+.portfolio{
+    text-shadow: 3px 3px 6px var(--yellow);
     transition: 0.4s;
+    user-select: none;
 }
 
-.hero__link:hover{
-    scale: 1.5;
+.portfolio:hover{
+    text-shadow: -3px -3px 6px var(--yellow);
 }
 
-.hero__link:active{
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: var(--yellow);
+    color: var(--darkcolor);
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: var(--yellow);
+    box-shadow: 2px 2px 5px var(--yellow);
+}
+
+.btn:hover i{
     rotate: 360deg;
-    transition: 1s;
+    transition: 0.7s;
 }
 
-#icon{
-    text-shadow: 2px 2px 5px var(--yellow);
+.btn:active{
+    box-shadow: -3px -3px 6px var(--yellow);
 }
+
+/* hero start */
