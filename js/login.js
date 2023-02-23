@@ -1,10 +1,10 @@
 const submit = document.getElementById('submit');
-const username = document.getElementById('username');
+const email = document.getElementById('email');
 const password = document.getElementById('password');
 
 submit.addEventListener('click', (btn) => {
   btn.preventDefault();
-  if (username.value === 'admin' && password.value === '1234') {
+  if (email.value === 'webdasturchi2223@gmail.com' && password.value === '22442432423') {
     alert('Siz muvaffaqiyatli kirdingiz!');
     window.location.href = './index.html';
   } else {
