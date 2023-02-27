@@ -48,6 +48,36 @@ body {
 
 
 
+/* scroll start */
+
+.scroll-top{
+    width: 85px;
+    height: 85px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+    border: 5px dashed var(--yellow);
+    color: var(--yellow);
+    background-color: transparent;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.scroll-top__img{
+    width: 100%;
+    display: flex;
+    border-radius: 50%;
+}
+
+/* scroll end */
+
+
+
 /* mobile start */
 
 .mobile {

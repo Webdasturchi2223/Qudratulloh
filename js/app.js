@@ -18,6 +18,9 @@ jQuery(document).ready(function($) {
   icon.click(function() {
     tl.play();
   });
+  $(".mobile__link").click(function() {
+    tl.reverse();
+  });
   $(".close__menu").click(function() {
     tl.reverse();
   });
