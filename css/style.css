@@ -48,6 +48,29 @@ body {
 
 
 
+/* test start */
+
+.test{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--yellow);
+}
+
+.test__text{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+/* test end */
+
+
+
 /* scroll start */
 
 .scroll-top{
