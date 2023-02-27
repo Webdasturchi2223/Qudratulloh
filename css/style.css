@@ -143,10 +143,6 @@ body {
     transition: 0.4s;
 }
 
-.mobile__link:hover .mobile__link__icon{
-    rotate: 360deg;
-}
-
 .mobile__link::after{
     position: relative;
     top: 3px;
@@ -274,10 +270,6 @@ body {
 
 .nav__link__icon{
     transition: 1s;
-}
-
-.nav__link:hover .nav__link__icon{
-    rotate: 360deg;
 }
 
 .nav__link::after{
@@ -536,11 +528,6 @@ body {
   background-color: transparent;
   color: var(--yellow);
   box-shadow: 2px 2px 5px var(--yellow);
-}
-
-.btn:hover i{
-  rotate: 360deg;
-  transition: 0.7s;
 }
 
 .btn:active{
@@ -849,10 +836,6 @@ body {
 
 .link__icon{
     transition: 1s;
-}
-
-.link__title:hover .link__icon{
-    rotate: 360deg;
 }
 
 .contact__link {
