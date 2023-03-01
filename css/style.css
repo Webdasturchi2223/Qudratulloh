@@ -503,16 +503,16 @@ body {
     margin-bottom: auto;
 }
 
-.card__img-box:hover .card__img{
-    transform: scale(0.9);
-}
-
 .card__img{
     width: 100%;
     object-fit: contain;
     border-radius: 10px;
     background-color: transparent;
     transition: 0.4s;
+}
+
+.card__link:hover .card__img{
+    transform: scale(0.9);
 }
 
 .card__text-box{
