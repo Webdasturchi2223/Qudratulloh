@@ -49,6 +49,12 @@
     object-fit: contain;
 }
 
+.swiper-button-next,
+.swiper-button-prev{
+    background-color: transparent;
+    border: none;
+}
+
 .swiper-pagination{
     z-index: 10000;
 }
@@ -63,7 +69,12 @@
     text-align: right;
 }
 
+.site__title-box{
+    display: inline-block;
+}
+
 .site__title{
+    display: inline-block;
     font-size: 30px;
     text-shadow: 3px 3px 6px var(--yellow);
     color: var(--yellow);
@@ -78,4 +89,18 @@
 .site__text{
     font-size: 18px;
     color: var(--yellow);
+}
+
+.site__content{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--gray);
+}
+
+.site__btn-wrap{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px 20px;
+    flex-wrap: wrap;
 }
