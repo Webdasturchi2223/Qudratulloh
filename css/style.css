@@ -999,7 +999,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     flex-wrap: wrap;
 }
 
@@ -1039,6 +1039,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
     list-style: none;
 }
 
@@ -1048,7 +1049,7 @@ body {
 
 .footer__link{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     color: var(--yellow);
     text-decoration: none;
 }
