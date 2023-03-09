@@ -542,6 +542,10 @@ body {
     margin-bottom: 20px;
 }
 
+.dev{
+    user-select: none;
+}
+
 .card__content{
     font-weight: 600;
     font-size: 13px;
