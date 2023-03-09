@@ -944,11 +944,6 @@ body {
     opacity: 0.6;
 }
 
-.contact__inp:focus{
-    outline: none;
-    box-shadow: 2px 2px 5px var(--yellow);
-}
-
 .contact__inp:hover{
     box-shadow: 2px 2px 5px var(--yellow);
 }
@@ -973,11 +968,6 @@ body {
 .contact__message::placeholder{
     color: var(--yellow);
     opacity: 0.6;
-}
-
-.contact__message:focus{
-    outline: none;
-    box-shadow: 2px 2px 5px var(--yellow);
 }
 
 .contact__message:hover{
